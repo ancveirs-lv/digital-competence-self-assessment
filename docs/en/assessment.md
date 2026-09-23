@@ -4,14 +4,14 @@
 
 ## Response states
 
-- `UNKNOWN` — Not sure
-- `NEEDS_HELP` — I need help
-- `INDEPENDENT` — I can do this independently
-- `CONFIDENT` — I can do this confidently and explain it
+- `UNKNOWN` — Not sure: I am not sure whether I can perform this capability.
+- `NEEDS_HELP` — I need help: I can perform it only with material assistance.
+- `INDEPENDENT` — I can do this independently: I can perform it independently in ordinary situations.
+- `CONFIDENT` — I can do this confidently and explain it: I can perform it independently, explain the approach and adapt it to a new situation.
 
 ## Assessment
 
-### Information and data
+### Information and data literacy
 
 #### D01
 
@@ -95,7 +95,7 @@ I review AI-assisted messages before sending them as if they were my own.
 
 **Sources:** `digcomp3`
 
-### Digital content and creation
+### Digital content creation
 
 #### D11
 
@@ -137,7 +137,7 @@ I can recognise and correct factual or structural errors in AI-generated content
 
 **Sources:** `digcomp3`
 
-### Safety, privacy and wellbeing
+### Safety
 
 #### D16
 
@@ -179,7 +179,7 @@ Before giving data to an AI service, I consider confidentiality, privacy and nec
 
 **Sources:** `digcomp3`
 
-### Problem solving and learning
+### Problem solving
 
 #### D21
 

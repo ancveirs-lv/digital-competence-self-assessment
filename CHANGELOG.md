@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-23 — v0.1.1 skeptical-audit hardening
+
+- defined bilingual response-state semantics;
+- clarified source scope and applicability;
+- preserved the no-aggregate-score methodology;
+- aligned competence-area titles with DigComp 3.0 canonical areas and clarified independent response semantics;
+
 ## 2026-09-23 — v0.1.0 pilot baseline
 
 - bilingual EN/LV assessment source of truth;

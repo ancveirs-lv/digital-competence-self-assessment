@@ -4,14 +4,14 @@
 
 ## Atbilžu stāvokļi
 
-- `UNKNOWN` — Neesmu pārliecināts
-- `NEEDS_HELP` — Man vajag palīdzību
-- `INDEPENDENT` — Varu to izdarīt patstāvīgi
-- `CONFIDENT` — Varu to darīt pārliecinoši un izskaidrot
+- `UNKNOWN` — Neesmu pārliecināts: Neesmu pārliecināts, vai spēju šo prasmi veikt.
+- `NEEDS_HELP` — Man vajag palīdzību: Varu to izdarīt tikai ar būtisku palīdzību.
+- `INDEPENDENT` — Varu to izdarīt patstāvīgi: Varu to izdarīt patstāvīgi parastās situācijās.
+- `CONFIDENT` — Varu to darīt pārliecinoši un izskaidrot: Varu to izdarīt patstāvīgi, izskaidrot pieeju un pielāgot jaunai situācijai.
 
 ## Novērtējums
 
-### Informācija un dati
+### Informācijas un datu pratība
 
 #### D01
 
@@ -95,7 +95,7 @@ Pirms MI atbalstīta teksta nosūtīšanas es to pārskatu kā savu paša ziņoj
 
 **Avoti:** `digcomp3`
 
-### Digitālais saturs un radīšana
+### Digitālā satura radīšana
 
 #### D11
 
@@ -137,7 +137,7 @@ Es spēju atpazīt un labot faktu vai struktūras kļūdas MI ģenerētā satur�
 
 **Avoti:** `digcomp3`
 
-### Drošība, privātums un labbūtība
+### Drošība
 
 #### D16
 
@@ -179,7 +179,7 @@ Pirms datu nodošanas MI pakalpojumam es izvērtēju konfidencialitāti, privāt
 
 **Avoti:** `digcomp3`
 
-### Problēmu risināšana un mācīšanās
+### Problēmu risināšana
 
 #### D21
 

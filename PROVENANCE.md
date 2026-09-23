@@ -1,7 +1,7 @@
 # Provenance
 
 Repository: `ancveirs-lv/digital-competence-self-assessment`
-Version: `0.1.0`
+Version: `0.1.1`
 Baseline date: `2026-09-23`
 Author: Zigmārs Ancveirs
 
@@ -14,3 +14,9 @@ This baseline intentionally avoids a single overall safety/compliance/maturity s
 ## DigComp adaptation notice
 
 This is an independent adapted self-assessment informed by DigComp 3.0. Changes and question wording are by the repository author. No European Commission logo is used and no Commission endorsement is implied.
+
+## v0.1.1 audit hardening
+
+Response-state meanings are explicit machine-readable methodology, not numerical scores. Source scope is recorded where a source is jurisdictional or context-specific.
+
+Project response states are not DigComp proficiency levels. DigComp wording is independently adapted; European Commission endorsement is not implied.
