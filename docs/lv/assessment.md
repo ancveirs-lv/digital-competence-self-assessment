@@ -4,10 +4,10 @@
 
 ## Atbilžu stāvokļi
 
-- `UNKNOWN` — Neesmu pārliecināts
-- `NEEDS_HELP` — Man vajag palīdzību
-- `INDEPENDENT` — Varu to izdarīt patstāvīgi
-- `CONFIDENT` — Varu to darīt pārliecinoši un izskaidrot
+- `UNKNOWN` — Neesmu pārliecināts: Neesmu pārliecināts, vai spēju šo prasmi veikt.
+- `NEEDS_HELP` — Man vajag palīdzību: Varu to izdarīt tikai ar būtisku palīdzību.
+- `INDEPENDENT` — Varu to izdarīt patstāvīgi: Varu to izdarīt patstāvīgi parastās situācijās.
+- `CONFIDENT` — Varu to darīt pārliecinoši un izskaidrot: Varu to izdarīt patstāvīgi, izskaidrot pieeju un pielāgot jaunai situācijai.
 
 ## Novērtējums
 

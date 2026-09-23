@@ -4,10 +4,10 @@
 
 ## Response states
 
-- `UNKNOWN` — Not sure
-- `NEEDS_HELP` — I need help
-- `INDEPENDENT` — I can do this independently
-- `CONFIDENT` — I can do this confidently and explain it
+- `UNKNOWN` — Not sure: I am not sure whether I can perform this capability.
+- `NEEDS_HELP` — I need help: I can perform it only with material assistance.
+- `INDEPENDENT` — I can do this independently: I can perform it independently in ordinary situations.
+- `CONFIDENT` — I can do this confidently and explain it: I can perform it independently, explain the approach and adapt it to a new situation.
 
 ## Assessment
 
