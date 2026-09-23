@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "assessment_id": "DCSA",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "language": "lv",
   "canonical_language": "en",
   "audience": "ikviens digitālo tehnoloģiju lietotājs",
@@ -9,19 +9,23 @@
   "states": [
     {
       "id": "UNKNOWN",
-      "label": "Neesmu pārliecināts"
+      "label": "Neesmu pārliecināts",
+      "meaning": "Neesmu pārliecināts, vai spēju šo prasmi veikt."
     },
     {
       "id": "NEEDS_HELP",
-      "label": "Man vajag palīdzību"
+      "label": "Man vajag palīdzību",
+      "meaning": "Varu to izdarīt tikai ar būtisku palīdzību."
     },
     {
       "id": "INDEPENDENT",
-      "label": "Varu to izdarīt patstāvīgi"
+      "label": "Varu to izdarīt patstāvīgi",
+      "meaning": "Varu to izdarīt patstāvīgi parastās situācijās."
     },
     {
       "id": "CONFIDENT",
-      "label": "Varu to darīt pārliecinoši un izskaidrot"
+      "label": "Varu to darīt pārliecinoši un izskaidrot",
+      "meaning": "Varu to izdarīt patstāvīgi, izskaidrot pieeju un pielāgot jaunai situācijai."
     }
   ],
   "gap_states": [
@@ -31,7 +35,7 @@
   "domains": [
     {
       "id": "INFO_DATA",
-      "title": "Informācija un dati"
+      "title": "Informācijas un datu pratība"
     },
     {
       "id": "COMM_COLLAB",
@@ -39,15 +43,15 @@
     },
     {
       "id": "CONTENT",
-      "title": "Digitālais saturs un radīšana"
+      "title": "Digitālā satura radīšana"
     },
     {
       "id": "SAFETY",
-      "title": "Drošība, privātums un labbūtība"
+      "title": "Drošība"
     },
     {
       "id": "PROBLEM_SOLVING",
-      "title": "Problēmu risināšana un mācīšanās"
+      "title": "Problēmu risināšana"
     }
   ],
   "items": [

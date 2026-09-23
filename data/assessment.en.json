@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "assessment_id": "DCSA",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "language": "en",
   "canonical_language": "en",
   "audience": "individuals",
@@ -9,19 +9,23 @@
   "states": [
     {
       "id": "UNKNOWN",
-      "label": "Not sure"
+      "label": "Not sure",
+      "meaning": "I am not sure whether I can perform this capability."
     },
     {
       "id": "NEEDS_HELP",
-      "label": "I need help"
+      "label": "I need help",
+      "meaning": "I can perform it only with material assistance."
     },
     {
       "id": "INDEPENDENT",
-      "label": "I can do this independently"
+      "label": "I can do this independently",
+      "meaning": "I can perform it independently in ordinary situations."
     },
     {
       "id": "CONFIDENT",
-      "label": "I can do this confidently and explain it"
+      "label": "I can do this confidently and explain it",
+      "meaning": "I can perform it independently, explain the approach and adapt it to a new situation."
     }
   ],
   "gap_states": [
@@ -31,7 +35,7 @@
   "domains": [
     {
       "id": "INFO_DATA",
-      "title": "Information and data"
+      "title": "Information and data literacy"
     },
     {
       "id": "COMM_COLLAB",
@@ -39,15 +43,15 @@
     },
     {
       "id": "CONTENT",
-      "title": "Digital content and creation"
+      "title": "Digital content creation"
     },
     {
       "id": "SAFETY",
-      "title": "Safety, privacy and wellbeing"
+      "title": "Safety"
     },
     {
       "id": "PROBLEM_SOLVING",
-      "title": "Problem solving and learning"
+      "title": "Problem solving"
     }
   ],
   "items": [

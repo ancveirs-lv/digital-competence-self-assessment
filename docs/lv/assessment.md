@@ -11,7 +11,7 @@
 
 ## Novērtējums
 
-### Informācija un dati
+### Informācijas un datu pratība
 
 #### D01
 
@@ -95,7 +95,7 @@ Pirms MI atbalstīta teksta nosūtīšanas es to pārskatu kā savu paša ziņoj
 
 **Avoti:** `digcomp3`
 
-### Digitālais saturs un radīšana
+### Digitālā satura radīšana
 
 #### D11
 
@@ -137,7 +137,7 @@ Es spēju atpazīt un labot faktu vai struktūras kļūdas MI ģenerētā satur�
 
 **Avoti:** `digcomp3`
 
-### Drošība, privātums un labbūtība
+### Drošība
 
 #### D16
 
@@ -179,7 +179,7 @@ Pirms datu nodošanas MI pakalpojumam es izvērtēju konfidencialitāti, privāt
 
 **Avoti:** `digcomp3`
 
-### Problēmu risināšana un mācīšanās
+### Problēmu risināšana
 
 #### D21
 

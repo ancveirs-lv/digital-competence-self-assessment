@@ -11,7 +11,7 @@
 
 ## Assessment
 
-### Information and data
+### Information and data literacy
 
 #### D01
 
@@ -95,7 +95,7 @@ I review AI-assisted messages before sending them as if they were my own.
 
 **Sources:** `digcomp3`
 
-### Digital content and creation
+### Digital content creation
 
 #### D11
 
@@ -137,7 +137,7 @@ I can recognise and correct factual or structural errors in AI-generated content
 
 **Sources:** `digcomp3`
 
-### Safety, privacy and wellbeing
+### Safety
 
 #### D16
 
@@ -179,7 +179,7 @@ Before giving data to an AI service, I consider confidentiality, privacy and nec
 
 **Sources:** `digcomp3`
 
-### Problem solving and learning
+### Problem solving
 
 #### D21
 

@@ -4,7 +4,7 @@
   "title_en": "Digital Competence Self-Assessment",
   "title_lv": "Digitālo kompetenču pašnovērtējums ikvienam",
   "assessment_id": "DCSA",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "expected_item_count": 25,
   "domain_ids": [
     "INFO_DATA",
@@ -23,5 +23,9 @@
   "global_english": true,
   "method_note_en": "This is an independent adaptation inspired by DigComp 3.0 concepts. It is not an official European Commission assessment and does not imply Commission endorsement.",
   "method_note_lv": "Šī ir neatkarīga adaptācija, kas iedvesmota no DigComp 3.0 jēdzieniem. Tas nav oficiāls Eiropas Komisijas novērtējums un nenozīmē Komisijas apstiprinājumu.",
-  "status": "pilot-baseline"
+  "status": "pilot-baseline",
+  "not_applicable_requires_note": false,
+  "state_semantics_required": true,
+  "digcomp_response_note_en": "Project response states are not DigComp proficiency levels.",
+  "digcomp_response_note_lv": "Projekta atbilžu stāvokļi nav DigComp prasmju līmeņi."
 }
