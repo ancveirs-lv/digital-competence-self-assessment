@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "repository": "ancveirs-lv/digital-competence-self-assessment",
+  "title_en": "Digital Competence Self-Assessment",
+  "title_lv": "Digitālo kompetenču pašnovērtējums ikvienam",
+  "assessment_id": "DCSA",
+  "version": "0.1.0",
+  "expected_item_count": 25,
+  "domain_ids": [
+    "INFO_DATA",
+    "COMM_COLLAB",
+    "CONTENT",
+    "SAFETY",
+    "PROBLEM_SOLVING"
+  ],
+  "state_ids": [
+    "UNKNOWN",
+    "NEEDS_HELP",
+    "INDEPENDENT",
+    "CONFIDENT"
+  ],
+  "assessment_type": "capability",
+  "global_english": true,
+  "method_note_en": "This is an independent adaptation inspired by DigComp 3.0 concepts. It is not an official European Commission assessment and does not imply Commission endorsement.",
+  "method_note_lv": "Šī ir neatkarīga adaptācija, kas iedvesmota no DigComp 3.0 jēdzieniem. Tas nav oficiāls Eiropas Komisijas novērtējums un nenozīmē Komisijas apstiprinājumu.",
+  "status": "pilot-baseline"
+}

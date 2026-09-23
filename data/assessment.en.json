@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "assessment_id": "DCSA",
+  "version": "0.1.0",
+  "language": "en",
+  "canonical_language": "en",
+  "audience": "individuals",
+  "assessment_type": "capability",
+  "states": [
+    {
+      "id": "UNKNOWN",
+      "label": "Not sure"
+    },
+    {
+      "id": "NEEDS_HELP",
+      "label": "I need help"
+    },
+    {
+      "id": "INDEPENDENT",
+      "label": "I can do this independently"
+    },
+    {
+      "id": "CONFIDENT",
+      "label": "I can do this confidently and explain it"
+    }
+  ],
+  "gap_states": [
+    "UNKNOWN",
+    "NEEDS_HELP"
+  ],
+  "domains": [
+    {
+      "id": "INFO_DATA",
+      "title": "Information and data"
+    },
+    {
+      "id": "COMM_COLLAB",
+      "title": "Communication and collaboration"
+    },
+    {
+      "id": "CONTENT",
+      "title": "Digital content and creation"
+    },
+    {
+      "id": "SAFETY",
+      "title": "Safety, privacy and wellbeing"
+    },
+    {
+      "id": "PROBLEM_SOLVING",
+      "title": "Problem solving and learning"
+    }
+  ],
+  "items": [
+    {
+      "id": "D01",
+      "domain": "INFO_DATA",
+      "prompt": "I can formulate an information need before choosing a search or AI tool.",
+      "recommended_action": "State the question, required evidence and acceptable source types before searching.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D02",
+      "domain": "INFO_DATA",
+      "prompt": "I compare source quality, date, authorship and evidence before relying on online information.",
+      "recommended_action": "Use a repeatable source-check routine on consequential claims.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D03",
+      "domain": "INFO_DATA",
+      "prompt": "I can organise files and data so that I can find the current version later.",
+      "recommended_action": "Adopt simple naming, versioning and folder rules.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D04",
+      "domain": "INFO_DATA",
+      "prompt": "I can interpret basic tables and charts without confusing correlation with proof.",
+      "recommended_action": "Identify population, period, units and what the data does not establish.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D05",
+      "domain": "INFO_DATA",
+      "prompt": "When AI gives factual information, I know when and how to verify it.",
+      "recommended_action": "Verify consequential AI claims against primary or authoritative sources.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D06",
+      "domain": "COMM_COLLAB",
+      "prompt": "I choose communication channels according to sensitivity, urgency and audience.",
+      "recommended_action": "Check recipient, channel and sharing permissions before sending sensitive material.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D07",
+      "domain": "COMM_COLLAB",
+      "prompt": "I can collaborate on shared documents without losing track of versions or ownership.",
+      "recommended_action": "Use version history and clear edit/review responsibilities.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D08",
+      "domain": "COMM_COLLAB",
+      "prompt": "I manage what my digital profiles reveal and who can access shared information.",
+      "recommended_action": "Review profile visibility, old sharing links and permissions.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D09",
+      "domain": "COMM_COLLAB",
+      "prompt": "I recognise when identity, tone or context may be ambiguous in digital communication.",
+      "recommended_action": "Verify unusual or consequential requests through another channel.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D10",
+      "domain": "COMM_COLLAB",
+      "prompt": "I review AI-assisted messages before sending them as if they were my own.",
+      "recommended_action": "Check facts, tone, confidential information and unintended claims.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D11",
+      "domain": "CONTENT",
+      "prompt": "I can create and edit digital content in formats appropriate to purpose and audience.",
+      "recommended_action": "Practise presenting the same information in two suitable formats.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D12",
+      "domain": "CONTENT",
+      "prompt": "I consider copyright, licensing and attribution before reusing digital material.",
+      "recommended_action": "Check reuse rights and record the source before publishing.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D13",
+      "domain": "CONTENT",
+      "prompt": "I can make common documents reasonably accessible to different users.",
+      "recommended_action": "Use meaningful headings, readable structure and alternative text where needed.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D14",
+      "domain": "CONTENT",
+      "prompt": "I can use simple automation or reusable templates without losing control of the result.",
+      "recommended_action": "Automate one repeatable task and define what still needs human checking.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D15",
+      "domain": "CONTENT",
+      "prompt": "I can recognise and correct factual or structural errors in AI-generated content.",
+      "recommended_action": "Treat AI output as a draft and validate important claims before reuse.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D16",
+      "domain": "SAFETY",
+      "prompt": "I protect important accounts with appropriate authentication and recovery settings.",
+      "recommended_action": "Review the authentication, recovery channels and active sessions of your primary email account.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D17",
+      "domain": "SAFETY",
+      "prompt": "I keep devices and apps updated and know when a device is no longer supported.",
+      "recommended_action": "Enable automatic updates where suitable and identify unsupported devices.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D18",
+      "domain": "SAFETY",
+      "prompt": "I understand what personal or sensitive data I share with apps and services.",
+      "recommended_action": "Review permissions and remove access that is not needed.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D19",
+      "domain": "SAFETY",
+      "prompt": "I recognise when digital use harms concentration, wellbeing or healthy boundaries.",
+      "recommended_action": "Set one concrete boundary for notifications, focus time or device use.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D20",
+      "domain": "SAFETY",
+      "prompt": "Before giving data to an AI service, I consider confidentiality, privacy and necessity.",
+      "recommended_action": "Avoid entering sensitive data unless service, purpose and permissions justify it.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D21",
+      "domain": "PROBLEM_SOLVING",
+      "prompt": "I can describe a digital problem clearly before trying random fixes.",
+      "recommended_action": "Record the symptom, expected behaviour, recent change and exact error.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D22",
+      "domain": "PROBLEM_SOLVING",
+      "prompt": "I choose digital tools based on requirements rather than popularity alone.",
+      "recommended_action": "Compare candidate tools against security, portability, cost and task requirements.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D23",
+      "domain": "PROBLEM_SOLVING",
+      "prompt": "I can learn a new digital tool using documentation, examples and controlled experimentation.",
+      "recommended_action": "Learn one unfamiliar function from primary documentation.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D24",
+      "domain": "PROBLEM_SOLVING",
+      "prompt": "I know when a digital task exceeds my competence or authority and I should seek help.",
+      "recommended_action": "Define stop conditions for security, legal, financial or irreversible actions.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D25",
+      "domain": "PROBLEM_SOLVING",
+      "prompt": "I can use AI to explore options while keeping responsibility for the final decision and verification.",
+      "recommended_action": "Separate AI suggestions from evidence and the decision you personally accept.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    }
+  ]
+}

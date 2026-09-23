@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "assessment_id": "DCSA",
+  "version": "0.1.0",
+  "language": "lv",
+  "canonical_language": "en",
+  "audience": "ikviens digitālo tehnoloģiju lietotājs",
+  "assessment_type": "capability",
+  "states": [
+    {
+      "id": "UNKNOWN",
+      "label": "Neesmu pārliecināts"
+    },
+    {
+      "id": "NEEDS_HELP",
+      "label": "Man vajag palīdzību"
+    },
+    {
+      "id": "INDEPENDENT",
+      "label": "Varu to izdarīt patstāvīgi"
+    },
+    {
+      "id": "CONFIDENT",
+      "label": "Varu to darīt pārliecinoši un izskaidrot"
+    }
+  ],
+  "gap_states": [
+    "UNKNOWN",
+    "NEEDS_HELP"
+  ],
+  "domains": [
+    {
+      "id": "INFO_DATA",
+      "title": "Informācija un dati"
+    },
+    {
+      "id": "COMM_COLLAB",
+      "title": "Komunikācija un sadarbība"
+    },
+    {
+      "id": "CONTENT",
+      "title": "Digitālais saturs un radīšana"
+    },
+    {
+      "id": "SAFETY",
+      "title": "Drošība, privātums un labbūtība"
+    },
+    {
+      "id": "PROBLEM_SOLVING",
+      "title": "Problēmu risināšana un mācīšanās"
+    }
+  ],
+  "items": [
+    {
+      "id": "D01",
+      "domain": "INFO_DATA",
+      "prompt": "Es varu formulēt informācijas vajadzību pirms meklētāja vai MI rīka izvēles.",
+      "recommended_action": "Pirms meklēšanas formulē jautājumu, vajadzīgos pierādījumus un pieņemamos avotu veidus.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D02",
+      "domain": "INFO_DATA",
+      "prompt": "Pirms paļaujos uz tiešsaistes informāciju, es salīdzinu avota kvalitāti, datumu, autorību un pierādījumus.",
+      "recommended_action": "Būtiskiem apgalvojumiem izmanto atkārtojamu avotu pārbaudes rutīnu.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D03",
+      "domain": "INFO_DATA",
+      "prompt": "Es varu sakārtot failus un datus tā, lai vēlāk atrastu aktuālo versiju.",
+      "recommended_action": "Ievies vienkāršus nosaukumu, versiju un mapju noteikumus.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D04",
+      "domain": "INFO_DATA",
+      "prompt": "Es varu interpretēt pamata tabulas un grafikus, nejaucot korelāciju ar pierādījumu.",
+      "recommended_action": "Nosaki populāciju, periodu, mērvienības un to, ko dati nepierāda.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D05",
+      "domain": "INFO_DATA",
+      "prompt": "Kad MI sniedz faktisku informāciju, es zinu, kad un kā to pārbaudīt.",
+      "recommended_action": "Būtiskus MI apgalvojumus pārbaudi primāros vai autoritatīvos avotos.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D06",
+      "domain": "COMM_COLLAB",
+      "prompt": "Es izvēlos komunikācijas kanālu atbilstoši sensitivitātei, steidzamībai un auditorijai.",
+      "recommended_action": "Pirms sensitīva materiāla nosūtīšanas pārbaudi saņēmēju, kanālu un koplietošanas tiesības.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D07",
+      "domain": "COMM_COLLAB",
+      "prompt": "Es varu sadarboties koplietotos dokumentos, nezaudējot izsekojamību versijām vai īpašumtiesībām.",
+      "recommended_action": "Izmanto versiju vēsturi un skaidras rediģēšanas/pārskatīšanas lomas.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D08",
+      "domain": "COMM_COLLAB",
+      "prompt": "Es pārvaldu, ko atklāj mani digitālie profili un kam ir piekļuve koplietotai informācijai.",
+      "recommended_action": "Pārskati profilu redzamību, vecās koplietošanas saites un tiesības.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D09",
+      "domain": "COMM_COLLAB",
+      "prompt": "Es atpazīstu, kad digitālajā saziņā identitāte, tonis vai konteksts var būt neskaidrs.",
+      "recommended_action": "Neparastus vai būtiskus pieprasījumus pārbaudi citā kanālā.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D10",
+      "domain": "COMM_COLLAB",
+      "prompt": "Pirms MI atbalstīta teksta nosūtīšanas es to pārskatu kā savu paša ziņojumu.",
+      "recommended_action": "Pārbaudi faktus, toni, konfidenciālu informāciju un netīšus apgalvojumus.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D11",
+      "domain": "CONTENT",
+      "prompt": "Es varu radīt un rediģēt digitālu saturu mērķim un auditorijai piemērotos formātos.",
+      "recommended_action": "Trenējies vienu informāciju pasniegt divos piemērotos formātos.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D12",
+      "domain": "CONTENT",
+      "prompt": "Pirms digitāla materiāla atkārtotas izmantošanas es izvērtēju autortiesības, licenci un atsauces.",
+      "recommended_action": "Pirms publicēšanas pārbaudi izmantošanas tiesības un fiksē avotu.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D13",
+      "domain": "CONTENT",
+      "prompt": "Es varu padarīt parastus dokumentus saprātīgi pieejamus dažādiem lietotājiem.",
+      "recommended_action": "Izmanto jēgpilnus virsrakstus, lasāmu struktūru un vajadzības gadījumā alternatīvo tekstu.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D14",
+      "domain": "CONTENT",
+      "prompt": "Es varu izmantot vienkāršu automatizāciju vai veidnes, nezaudējot kontroli pār rezultātu.",
+      "recommended_action": "Automatizē vienu atkārtojamu uzdevumu un definē, kas joprojām jāpārbauda cilvēkam.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D15",
+      "domain": "CONTENT",
+      "prompt": "Es spēju atpazīt un labot faktu vai struktūras kļūdas MI ģenerētā saturā.",
+      "recommended_action": "Uztver MI izvadi kā melnrakstu un pirms izmantošanas validē būtiskus apgalvojumus.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D16",
+      "domain": "SAFETY",
+      "prompt": "Es aizsargāju svarīgus kontus ar atbilstošu autentifikāciju un atkopšanas iestatījumiem.",
+      "recommended_action": "Pārskati galvenā e-pasta autentifikāciju, atkopšanas kanālus un aktīvās sesijas.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D17",
+      "domain": "SAFETY",
+      "prompt": "Es atjauninu ierīces un lietotnes un zinu, kad ierīce vairs netiek atbalstīta.",
+      "recommended_action": "Kur piemērots, ieslēdz automātiskos atjauninājumus un identificē neatbalstītas ierīces.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D18",
+      "domain": "SAFETY",
+      "prompt": "Es saprotu, kādus personas vai sensitīvus datus kopīgoju ar lietotnēm un pakalpojumiem.",
+      "recommended_action": "Pārskati atļaujas un noņem nevajadzīgas piekļuves.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D19",
+      "domain": "SAFETY",
+      "prompt": "Es atpazīstu, kad digitālo rīku lietošana kaitē koncentrācijai, labbūtībai vai veselīgām robežām.",
+      "recommended_action": "Nosaki vienu konkrētu robežu paziņojumiem, fokusa laikam vai ierīču lietošanai.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D20",
+      "domain": "SAFETY",
+      "prompt": "Pirms datu nodošanas MI pakalpojumam es izvērtēju konfidencialitāti, privātumu un nepieciešamību.",
+      "recommended_action": "Neievadi sensitīvus datus, ja vien pakalpojums, mērķis un atļaujas to nepamato.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D21",
+      "domain": "PROBLEM_SOLVING",
+      "prompt": "Es varu skaidri aprakstīt digitālu problēmu, pirms izmēģinu nejaušus labojumus.",
+      "recommended_action": "Pieraksti simptomu, sagaidāmo uzvedību, nesenās izmaiņas un precīzo kļūdu.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D22",
+      "domain": "PROBLEM_SOLVING",
+      "prompt": "Es izvēlos digitālos rīkus pēc prasībām, nevis tikai popularitātes.",
+      "recommended_action": "Salīdzini rīkus pēc drošības, pārnesamības, izmaksu un uzdevuma prasībām.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D23",
+      "domain": "PROBLEM_SOLVING",
+      "prompt": "Es varu apgūt jaunu digitālu rīku, izmantojot dokumentāciju, piemērus un kontrolētu eksperimentēšanu.",
+      "recommended_action": "Apgūsti vienu nepazīstamu funkciju no primārās dokumentācijas.",
+      "priority": "normal",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D24",
+      "domain": "PROBLEM_SOLVING",
+      "prompt": "Es zinu, kad digitāls uzdevums pārsniedz manu kompetenci vai pilnvaras un jāmeklē palīdzība.",
+      "recommended_action": "Definē apstāšanās nosacījumus drošības, juridiskām, finanšu vai neatgriezeniskām darbībām.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    },
+    {
+      "id": "D25",
+      "domain": "PROBLEM_SOLVING",
+      "prompt": "Es varu izmantot MI iespēju izpētei, saglabājot atbildību par gala lēmumu un pārbaudi.",
+      "recommended_action": "Nodali MI ieteikumus no pierādījumiem un lēmuma, ko pats pieņem.",
+      "priority": "high",
+      "source_refs": [
+        "digcomp3"
+      ]
+    }
+  ]
+}

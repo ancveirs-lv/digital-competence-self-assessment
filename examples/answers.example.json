@@ -1,0 +1,31 @@
+{
+  "assessment_id": "DCSA",
+  "version": "0.1.0",
+  "answers": {
+    "D01": "UNKNOWN",
+    "D02": "NEEDS_HELP",
+    "D03": "INDEPENDENT",
+    "D04": "CONFIDENT",
+    "D05": "UNKNOWN",
+    "D06": "NEEDS_HELP",
+    "D07": "INDEPENDENT",
+    "D08": "CONFIDENT",
+    "D09": "UNKNOWN",
+    "D10": "NEEDS_HELP",
+    "D11": "INDEPENDENT",
+    "D12": "CONFIDENT",
+    "D13": "UNKNOWN",
+    "D14": "NEEDS_HELP",
+    "D15": "INDEPENDENT",
+    "D16": "CONFIDENT",
+    "D17": "UNKNOWN",
+    "D18": "NEEDS_HELP",
+    "D19": "INDEPENDENT",
+    "D20": "CONFIDENT",
+    "D21": "UNKNOWN",
+    "D22": "NEEDS_HELP",
+    "D23": "INDEPENDENT",
+    "D24": "CONFIDENT",
+    "D25": "UNKNOWN"
+  }
+}
